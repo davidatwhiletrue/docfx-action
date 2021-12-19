@@ -20,12 +20,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       name: Checkout code
-    - uses: nunit/docfx-action@v1.0.0
-      name: Build Documentation
+    - uses: davidatwhiletrue/docfx-action@v1.0.0
+      name: Build and Publish Documentation
       with:
         args: path/to/your/docfx.json
-    - uses: maxheld83/ghpages@master
-      name: Publish Documentation on GitHub Pages
       env:
         BUILD_DIR: _site # docfx's default output directory is _site
         GH_PAT: ${{ secrets.GH_PAT }} # See https://github.com/maxheld83/ghpages
