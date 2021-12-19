@@ -1,6 +1,6 @@
 name: docfx-action
-author: NUnit Docs team (forked from Niklas Mollenhauer)
-description: Runs docfx as a GitHub Action.
+author: David Hernando (forked from Niklas Mollenhauer)
+description: Runs docfx as a GitHub Action and publish the result in GitHub Pages.
 
 runs:
   using: docker

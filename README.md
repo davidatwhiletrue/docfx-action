@@ -1,15 +1,10 @@
 # docfx-action
-A GitHub action to run [DocFX](https://dotnet.github.io/docfx/) and generate a documentation site.
+A GitHub action to run [DocFX](https://dotnet.github.io/docfx/) and generate a documentation site in GitHub Pages.
 
-## Lovingly forked from @nikeee
+This is a combination of two existing action that already work super, but executed in one single step:
 
-Isaac Newton famously said, "If I have seen further, it is because I am standing on the shoulders of giants."
-
-@nikeee gave us a huge leg up by publishing their repo. Our goal is to:
-
-* Update this in the short-term to suit our needs (different version numbers, etc.)
-* Make things a little more configurable (as we learn about GH Actions)
-* Contribute it back upstream and close this out (assuming @nikeee is interested in the changes.)
+* https://github.com/nikeee/docfx-action
+* https://github.com/maxheld83/ghpages
 
 ## Usage
 ```yaml
